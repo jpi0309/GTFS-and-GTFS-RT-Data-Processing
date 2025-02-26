@@ -17,8 +17,8 @@ The project is divided into two main components:
   
 Below, visualization of the division of the bus network into common segments (left) and processed GPS readings with obtained information characterizing the trip (right):
  <p align="center">
-    <img src="graph.png" alt="Shortest Path" width="400"/>
-    <img src="shortest_path.png" alt="Another Image" width="400"/>
+    <img src="segmentation.png" alt="Shortest Path" width="400"/>
+    <img src="processed_gps.png" alt="Another Image" width="400"/>
 </p>
 
 
