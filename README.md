@@ -14,14 +14,13 @@ The project is divided into two main components:
 - Implements a real-time GPS tracking system that estimates bus positions and delays.
 - Provides an interactive visualization of routes and GPS-tracked vehicles.
 - Allows integration of updated data to maintain an accurate transit model.
+  
+Below, visualization of the division of the bus network into common segments (left) and processed GPS readings with obtained information characterizing the trip (right):
+ <p align="center">
+    <img src="graph.png" alt="Shortest Path" width="400"/>
+    <img src="shortest_path.png" alt="Another Image" width="400"/>
+</p>
 
-### Example Visualizations
-Below, you can insert images showcasing the results:
-- **Segmented Bus Network:**
-  ![Segmented Network](path/to/your/image1.png)
-
-- **Processed GPS Data Visualization:**
-  ![GPS Data](path/to/your/image2.png)
 
 ## Installation
 1. Clone the repository:
