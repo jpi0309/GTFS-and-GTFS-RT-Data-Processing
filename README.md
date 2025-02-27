@@ -34,7 +34,7 @@ The project is divided into two main components ('GTFS processing.ipynb' and 'gp
 - Open the Jupyter Notebooks (first analyze 'GTFS processing.ipynb' and then 'gps processing algorithm.ipynb').
 - Install the required libraries (you will find them in the first cells).
 - Execute the cells step by step to process the data.
-- Modify the tracked trip_id to analyze different routes and verify the correctness of the algorithm. .
+- In the second notebook, you can modify the tracked trip_id to visualize different routes and verify the correctness of the algorithm. 
 - You can find the results (map visualizations and new processed data frames) in the results folder.
 
 ## Dependencies
