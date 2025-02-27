@@ -7,6 +7,8 @@ The project is divided into two main components ('GTFS processing.ipynb' and 'gp
 1. **GTFS Data Processing** - Constructs new data frames for further use, preparing data for the algorithm in the second part of the project. Processing bus stops, route shapes, and segmenting bus network for efficient pathfinding.
 2. **GPS Data Processing** - Matches real-time GPS data to the GTFS-based network to track vehicle positions, estimate arrival times, and analyze delays.
 
+Each notebook is well-described for better understanding.
+
 ## Features
 - Generates segmentation of the transit network.
 - Processes GTFS data, including bus stops, arrivals, and schedules to create more comfortable data frames.
@@ -14,22 +16,6 @@ The project is divided into two main components ('GTFS processing.ipynb' and 'gp
 - Provides an interactive visualization of routes and GPS-tracked vehicles.
 - Possibility of using the algorithm to create models predicting bus delays.
   
-## Installation
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/your-repository.git
-   cd your-repository
-   ```
-2. Install dependencies:
-   ```sh
-   pip install -r requirements.txt
-   ```
-3. Run the Jupyter Notebook:
-   ```sh
-   jupyter notebook "GTFS processing.ipynb"
-   jupyter notebook "gps processing algorithm.ipynb"
-   ```
-
 ## Usage
 - Open the Jupyter Notebooks (first analyze 'GTFS processing.ipynb' and then 'gps processing algorithm.ipynb').
 - Install the required libraries (you will find them in the first cells).
