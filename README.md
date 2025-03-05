@@ -1,7 +1,7 @@
 # GTFS & GPS Data Processing for Public Transport
 
 ## Overview
-This project processes GTFS and GTFS-RT data to prepare raw data and initially process GPS readings for better usage in other projects (bus delay prediction). It includes segmentation of bus network, GPS data processing, and visualization tools to assess bus movement and delays.
+This project processes GTFS and GTFS-RT to prepare raw data and initially process GPS readings for better usage (for example in other projects as bus delay prediction). It includes segmentation of bus network, GPS data processing, and visualization tools to assess bus movement and delays.
 
 The project is divided into two main components ('GTFS processing.ipynb' and 'gps processing algorithm.ipynb'):
 1. **GTFS Data Processing** - Constructs new data frames for further use, preparing data for the algorithm in the second part of the project. Processing bus stops, route shapes, and segmenting bus network for efficient pathfinding.
@@ -10,13 +10,14 @@ The project is divided into two main components ('GTFS processing.ipynb' and 'gp
 Each notebook is well-described for better understanding.
 
 ## Features
-- Generates segmentation of the transit network.
 - Processes GTFS data, including bus stops, arrivals, and schedules to create more comfortable data frames.
+- Generates segmentation of the transit network.
 - Implements a real-time GPS tracking system that estimates bus positions (mapping to segments using a fast k-d tree.) and delays.
 - Provides an interactive visualization of routes and GPS-tracked vehicles.
 - Possibility of using the algorithm to create models predicting bus delays.
   
 ## Usage
+- Download the required data. Some files might be stored as pointers (.lfs).
 - Open the Jupyter Notebooks (first analyze 'GTFS processing.ipynb' and then 'gps processing algorithm.ipynb').
 - Install the required libraries (you will find them in the first cells).
 - Execute the cells step by step to process the data.
@@ -37,7 +38,7 @@ Ensure that all dependencies are installed before running the notebooks.
 ## Data
 The dataset includes:
 - Raw minimalist GTFS data for Gdańsk from a specific period (.txt format)
-- GTFS-RT data ('GTFS-RT data.csv') for specific period (in other words that file contains all gps readings in Gdansk area).
+- GTFS-RT data ('GTFS-RT data.csv') for specific period, which contains gps readings in Gdansk area.
 
 ## Examples
 Below, visualization of the division of the bus network into shared segments (left) and processed GPS readings with obtained information characterizing the trip (right):
@@ -52,7 +53,7 @@ Below, visualization of the division of the bus network into shared segments (le
 - Adapting the project for real-time processing, which can be used in a future mobile application.
 - Expanding the approach to other cities beyond Gdańsk.
 
-Share your opinion!
+
 
 
 
