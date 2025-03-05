@@ -1,7 +1,7 @@
 # GTFS & GPS Data Processing for Public Transport
 
 ## Overview
-This project processes GTFS and GTFS-RT to prepare raw data and initially process GPS readings for better usage (for example in other projects as bus delay prediction). It includes segmentation of bus network, GPS data processing, and visualization tools to assess bus movement and delays.
+This project processes GTFS and GTFS-RT data to prepare raw datasets and initially process GPS readings for better usability (e.g., for bus delay prediction in other projects). It includes bus network segmentation, fast GPS data processing algorithm, and visualization tools to analyze bus movements and delays.
 
 The project is divided into two main components ('GTFS processing.ipynb' and 'gps processing algorithm.ipynb'):
 1. **GTFS Data Processing** - Constructs new data frames for further use, preparing data for the algorithm in the second part of the project. Processing bus stops, route shapes, and segmenting bus network for efficient pathfinding.
