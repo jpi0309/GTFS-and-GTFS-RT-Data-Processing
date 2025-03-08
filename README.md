@@ -43,8 +43,8 @@ The dataset includes:
 ## Examples
 Below, visualization of the division of the bus network into shared segments (left) and processed GPS readings with obtained information characterizing the trip (right):
  <p align="center">
-    <img src="segmentation.png" alt="Shortest Path" width="400"/>
-    <img src="processed gps.png" alt="Another Image" width="400"/>
+    <img src="images\\segmentation.png" alt="segmentation" width="400"/>
+    <img src="images\\processed gps.png" alt="processed trip" width="400"/>
 </p>
 
 ## Future Improvements
