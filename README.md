@@ -4,8 +4,8 @@
 This project processes GTFS and GTFS-RT data to prepare raw datasets and initially process GPS readings for better usability (e.g., for bus delay prediction in other projects). It includes bus network segmentation, fast GPS data processing algorithm, and visualization tools to analyze bus movements and delays.
 
 The project is divided into two main components ('GTFS processing.ipynb' and 'gps processing algorithm.ipynb'):
-1. **GTFS Data Processing** - Constructs new data frames for further use, preparing data for the algorithm in the second part of the project. Processing bus stops, route shapes, and segmenting bus network for efficient pathfinding.
-2. **GPS Data Processing** - Matches real-time GPS data to the GTFS-based network to track vehicle positions, estimate arrival times, and analyze delays.
+1. **GTFS Data Processing** - Constructing new data frames for further use, preparing data for the algorithm in the second part of the project. Processing bus stops, route shapes, and segmenting bus network for efficient pathfinding.
+2. **GPS Data Processing** - Matching real-time GPS data to the GTFS-based network to track vehicle positions, estimating arrival times, and analyzing delays.
 
 Each notebook is well-described for better understanding.
 
